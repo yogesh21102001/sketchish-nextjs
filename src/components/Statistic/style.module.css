@@ -1,0 +1,46 @@
+.statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 28%;
+}
+
+.number_cont {
+    text-align: center;
+    font-family: Inter;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: linear-gradient(270deg, #9453FD 9.59%, #FD53B9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.statistic p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 150% */
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+}
+
+@media(max-width: 600px){
+    .number_cont{
+        font-size: 15vw;
+    }
+
+    .statistic p{
+        font-size: 3.2vw;
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+.screenshot_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.screenshot {
+  width: 1220px;
+}
+
+@media(max-width: 1220px){
+  .screenshot {
+    width: 100%;
+  }
+}

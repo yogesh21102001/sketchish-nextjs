@@ -1,0 +1,134 @@
+.nav_cont {
+    background-color: white;
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+
+.wraper {
+    display: flex;
+    width: 100%;
+    height: 6.25rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    max-width: 100rem;
+    margin: 0 auto;
+
+}
+
+.rgt {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.links_cont {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.links_cont a {
+    color: #000;
+    text-align: right;
+    /* font-family: Inter; */
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.linkActive {
+    background: linear-gradient(268deg, #FB6AB8 0.93%, #A533FF 98.33%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_cont{
+    width: 9vw;
+    height: 9vw;
+    display: none;
+}
+
+.menu_cont img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.close_icon{
+    position: absolute;
+    top: 10vw;
+    left: 6vw;
+    width: 5vw;
+    height: 5vw;
+    display: none;
+}
+
+.close_icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media(max-width:900px){
+  .lets_talk_btn{
+    display: none;
+  }
+
+  .wraper{
+    height: 5.62rem;
+  }
+}
+
+@media(max-width:600px){
+
+    .lets_talk_btn{
+        display: flex;
+      }
+
+
+      .close_icon{
+        display: initial;
+      }
+
+      .menu_cont{
+        display: initial;
+      }
+
+   .lft img{
+     width: 25vw;
+   }
+
+   .wraper{
+    height: 16vw;
+   }
+
+   .responsive_menu{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    background-color: white;
+    width: 60%;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 39vw;
+   }
+
+   .responsive_menu .links_cont{
+    flex-direction: column;
+    margin: initial !important;
+    align-items: flex-end;
+   }
+
+   
+}

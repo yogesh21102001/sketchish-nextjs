@@ -1,0 +1,107 @@
+.section_cont {
+    width: 100%;
+    background-color: black;
+    padding: 6.25rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.service_card {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    background: linear-gradient(to right, black 20%, black 50%, black 80%);
+    transition: all .3s;
+    animation: shine 30s linear infinite;
+}
+
+.service_wraper{
+    width: 100%;
+    max-width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.service_card:hover{
+    background: linear-gradient(to right, #9453FD 20%, #fd53b9e2 50%, #9453FD 80%);
+    background-size: 200% auto;
+}
+
+.service_card .service_card_lft{
+    width: 35%;
+}
+
+.link_arrow_cont{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service_card .link{
+    color: var(--shades-tint-light-dark, #FFF);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin-top: .62rem;
+}
+
+.service_card .service_card_rgt{
+    width: 55%;
+}
+
+.service_card .service_card_rgt .txt{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+@media(max-width: 1024px){
+    .section_cont{
+        gap: 3rem;
+        padding: 4.25rem 0;
+    }
+}
+@media(max-width: 600px){
+    .section_cont{
+        gap: 5vw;
+        padding: 10vw 0;
+    }
+
+    .service_card{
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+
+    .service_wraper{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .service_card .service_card_lft{
+        width: 100%;
+    }
+
+    .service_card .service_card_rgt{
+        width: 100%;
+    }
+
+    .service_card .service_card_rgt .txt{
+        font-size: 3.5vw;
+        line-height: 6.2vw;
+    }
+
+    .service_card .link{
+        font-size: 4.5vw;
+    }
+}

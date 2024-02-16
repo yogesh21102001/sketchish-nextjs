@@ -1,0 +1,10 @@
+.cursor_div img{
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain;
+}
+
+.cursor_div{
+    width: 7rem;
+    height: 7rem;
+}

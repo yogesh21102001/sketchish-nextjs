@@ -1,0 +1,120 @@
+.sec_cont {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    background-color: white;
+}
+
+.sec_cont .wraper {
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.tech_category {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.tech_cont {
+    max-width: 65.625rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: .62rem;
+    justify-content: space-between;
+}
+
+.divider p {
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(270deg, #9453FD 9.59%, #FD53B9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.divider .line {
+    height: .1rem;
+    background-color: #CED2D9;
+    width: 92%;
+}
+
+.tech_card_cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.88rem 0;
+}
+
+.tech_card {
+    width: 10.375rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tech_logo {
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech_logo .img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tech_card  p {
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media(max-width: 900px){
+    .tech_cont{
+      width: 86%;
+    }
+}
+
+@media(max-width: 600px){
+    .sec_cont{
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .tech_cont{
+        padding: 0 5vw;
+        width: 100%;
+    }
+
+    .tech_card {
+        width: 30vw;
+    }
+
+    .tech_logo {
+        height: 18vw;
+    }
+}

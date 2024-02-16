@@ -1,0 +1,7 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<path id="Ellipse 1628" d="M44.1421 15.8579C36.3316 8.04741 23.6683 8.04741 15.8579 15.8579C8.04738 23.6684 8.04738 36.3317 15.8579 44.1422L21.5147 38.4853C16.8284 33.799 16.8284 26.201 21.5147 21.5148C26.201 16.8285 33.799 16.8285 38.4853 21.5147C43.1716 26.201 43.1716 33.799 38.4853 38.4853L44.1421 44.1422C51.9526 36.3317 51.9526 23.6684 44.1421 15.8579Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<circle id="Ellipse 1634" cx="30" cy="30" r="4" transform="rotate(-90 30 30)" fill="white"/>
+<path id="Vector 2" d="M30 30H47" stroke="white" stroke-width="2"/>
+</g>
+</svg>

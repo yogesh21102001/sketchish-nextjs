@@ -1,0 +1,29 @@
+.body_padding {
+    padding-left: 11.56rem;
+    padding-right: 11.56rem;
+}
+
+.show_container {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+@media(max-width: 1280px){
+    .body_padding{
+        padding-left: 6.56rem;
+        padding-right: 6.56rem;
+    }
+}
+@media(max-width: 1024px){
+    .body_padding{
+        padding-left: 2.56rem;
+        padding-right: 2.56rem;
+    }
+}
+@media(max-width: 600px){
+    .body_padding{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
