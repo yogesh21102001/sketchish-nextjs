@@ -1,1 +1,0 @@
-export { IconPreview } from "./IconPreview/IconPreview.jsx";

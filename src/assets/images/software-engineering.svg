@@ -1,0 +1,14 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<circle id="Ellipse 1628" cx="30" cy="30" r="20" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<circle id="Ellipse 1629" cx="30" cy="30" r="10" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<circle id="Ellipse 1630" cx="2" cy="2" r="2" transform="matrix(1 0 0 -1 28 17)" fill="white"/>
+<circle id="Ellipse 1636" cx="2" cy="2" r="2" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 19.3936 22.2218)" fill="white"/>
+<circle id="Ellipse 1634" cx="2" cy="2" r="2" transform="matrix(-4.37114e-08 1 1 4.37114e-08 43 28)" fill="white"/>
+<circle id="Ellipse 1632" cx="2" cy="2" r="2" transform="matrix(0.707107 0.707107 0.707107 -0.707107 37.7783 19.3934)" fill="white"/>
+<circle id="Ellipse 1631" cx="30" cy="45" r="2" fill="white"/>
+<circle id="Ellipse 1637" cx="40.6067" cy="40.6066" r="2" transform="rotate(-45 40.6067 40.6066)" fill="white"/>
+<circle id="Ellipse 1635" cx="15" cy="30" r="2" transform="rotate(90 15 30)" fill="white"/>
+<circle id="Ellipse 1633" cx="19.3936" cy="40.6066" r="2" transform="rotate(45 19.3936 40.6066)" fill="white"/>
+</g>
+</svg>

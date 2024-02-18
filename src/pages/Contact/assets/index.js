@@ -1,6 +1,0 @@
-export { ReactComponent as EmailBadge } from "./email-badge.svg"
-export { ReactComponent as ChatBadge } from "./chat-badge.svg"
-export { ReactComponent as DiscordBadge } from "./discord-badge.svg"
-export { ReactComponent as SupportGradient } from "./support-gradient.svg"
-export { ReactComponent as OSBadge } from "./os-badge.svg"
-export { ReactComponent as Success } from "./S.svg"

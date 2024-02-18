@@ -1,0 +1,40 @@
+.interface {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.pc_interface {
+  width: 1200px;
+  height: 885px;
+  padding-right: 200px;
+  object-fit: contain;
+}
+/* 
+1200 x 885
+1054 x 657 */
+
+/* 6 ширины : 1 отступ : 2 ширина телефона */
+
+.phone_interface {
+  position: absolute;
+  left: calc(50% + 140px);
+  bottom: 0;
+  width: 400px;
+}
+
+@media(max-width: 1400px){
+  .pc_interface {
+    width: 78vw;
+    padding-right: 13vw;
+    height: auto;
+    /* height: calc(100% + 100px); */
+  }
+
+  .phone_interface {
+    width: 21.5vw;
+    right: 17vw;
+    left: auto;
+  }
+}

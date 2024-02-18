@@ -1,1 +1,0 @@
-export { ReactComponent as FigmaConnected } from "./figma-connected.svg"

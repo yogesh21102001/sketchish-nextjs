@@ -1,0 +1,40 @@
+.btn_cont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 3.75rem;
+    width: 10.813rem;
+}
+
+.btn {
+    position: absolute;
+    display: flex;
+    padding: 0.9375rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.25rem;
+    background: #000;
+    text-transform: uppercase;
+    width: 100%;
+
+    transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn_text {
+    letter-spacing: 0.0625rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: white;
+}
+
+@media(max-width:1024px){
+    .btn_text{
+        font-size: 0.7375rem;
+    }
+
+    .btn{
+        padding: 0.9375rem 1.275rem;
+    }
+}

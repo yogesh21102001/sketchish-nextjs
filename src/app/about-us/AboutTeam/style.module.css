@@ -1,0 +1,164 @@
+.container {
+  padding: 6.375rem 0 12.25rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top_section {
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.text_container {
+  width: 600px;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.625rem;
+  letter-spacing: 0px;
+  width: 520px;
+}
+
+.text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0px;
+  width: 510px;
+}
+
+.down_section {
+  display: flex;
+  margin-left: 1.875rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+}
+
+.down_section_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation{
+  animation: rotateAnimation 20s linear infinite;
+}
+
+.down_section_picture {
+  width: 100%;
+  height: 100%;
+}
+
+.founder_container {
+  position: relative;
+}
+
+.founder_text {
+  position: absolute;
+  top: calc(100% + 1.25rem);
+  left: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media(max-width: 1300px){
+  .container {
+    margin: 0 2rem;
+  }
+
+  .text_container {
+    width: calc(50% - 2.5rem);
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .title, .text {
+    width: 100%;
+  }
+
+  .team_picture {
+    width: calc(50% - 2.5rem);
+  }
+
+  .down_section {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .down_section_block {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media(max-width: 900px){
+  .top_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text_container {
+    width: calc(100%);
+  }
+
+  .team_picture {
+    width: calc(100%);
+  }
+
+  .down_section {
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 600px){
+  .container {
+    padding: 6.375rem 0;
+  }
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .down_section {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .down_section_block {
+    width: 50%;
+    height: auto;
+  }
+}

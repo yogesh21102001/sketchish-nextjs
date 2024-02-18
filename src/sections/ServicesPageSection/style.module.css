@@ -1,0 +1,320 @@
+.sec_cont {
+    padding: 6.25rem 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.section {
+    width: 100%;
+}
+
+.tool_use {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.bottom_sec {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.section .rgt {
+    width: 80%;
+}
+
+.header p {
+    color: var(--shades-tint-light-dark, #FFF);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    width: 50%;
+}
+
+.cont {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.header .cont {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.lft{
+    width: 30%;
+}
+
+.bottom_sec .lft{
+    width: 43%;
+}
+
+.tech_card_cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.88rem 0;
+}
+
+.tech_card {
+    width: 6.78125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tech_logo {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech_logo .img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tech_card p {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.675rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn_cont {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.25rem;
+}
+
+.work_card_cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.125rem 4.6875rem;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.work_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+    width: 29%;
+    height: fit-content;
+}
+
+.work_card h3 {
+    color: var(--shades-tint-light-dark, #FFF);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.work_card p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875rem;
+    /* 175% */
+}
+
+.showcase {
+    padding-left: 11.56rem;
+    padding-right: 11.56rem;
+    position: relative;
+    overflow: auto;
+}
+
+.showcase .slide {
+    display: flex;
+    gap: 1.88rem;
+    height: 100%;
+    width: fit-content;
+}
+
+.showcase .slide .showcase_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.19rem;
+}
+
+.showcase .slide .showcase_card .img_cont {
+    width: 37.5rem;
+    height: 24.0625rem;
+    background-color: white;
+}
+
+.showcase .slide .showcase_card .img_cont .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.showcase .slide .showcase_card p {
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 160% */
+}
+
+.showcase .slide .showcase_card p.name{
+    color: rgba(255, 255, 255, 0.70);
+}
+.showcase .slide .showcase_card p.work{
+    color: white;
+}
+
+@media only screen and (max-width: 2500px) and (min-width: 2050px) {
+    .showcase {
+        padding-left: 22.56rem;
+        padding-right: 22.56rem;
+    }
+}
+
+@media only screen and (max-width: 2050px) and (min-width: 1925px) {
+    .showcase {
+        padding-left: 14.56rem;
+        padding-right: 14.56rem;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    .showcase {
+        padding-left: 24%;
+        padding-right: 24%;
+    }
+}
+
+@media only screen and (min-width: 6000px) {
+    .showcase {
+        padding-left: 37%;
+        padding-right: 37%;
+    }
+}
+
+@media(max-width: 1280px){
+    .lft{
+        width: 44%;
+    }
+
+    .showcase {
+        padding-left: 6.56rem;
+        padding-right: 6.56rem;
+    }
+
+    .work_card_cont{
+        gap: 3.125rem 3.6875rem;
+    }
+}
+
+@media(max-width: 1024px){
+    .showcase {
+        padding-left: 2.56rem;
+        padding-right: 2.56rem;
+    }
+
+    .sec_cont{
+        padding: 8vw 0;
+    }
+}
+
+@media(max-width: 600px){
+    .cont{
+        flex-direction: column;
+        gap: 5vw;
+        padding: 10vw 0;
+        padding-bottom: 5vw;
+    }
+
+    .lft{
+        width: 100% !important;
+    }
+
+    .header p{
+        width: 100%;
+        font-size: 3.5vw;
+        line-height: 6.5vw;
+    }
+
+    .sec_cont{
+        padding: 10vw 0;
+        gap: 10vw;
+    }
+
+    .showcase {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .showcase .slide{
+        gap: 5vw;
+    }
+
+    .showcase .slide .showcase_card .img_cont {
+        width: 74vw;
+        height: 48vw;
+    }
+
+    .showcase .slide .showcase_card p{
+        font-size: 3.5vw;
+        line-height: 6.5vw;
+    }
+
+    .section .rgt {
+        width: 100%;
+    }
+
+    .tech_card_cont {
+        justify-content: flex-start;
+        gap: 3vw;
+    }
+
+    .tech_card{
+        width: 20vw;
+    }
+
+    .tech_logo{
+        height: 15vw;
+    }
+
+    .work_card{
+        width: 100%;
+        gap: 4vw;
+    }
+
+    .work_card h3{
+        font-size: 5.5vw;
+    }
+    .work_card p{
+        font-size: 3.5vw;
+        line-height: 6.5vw;
+    }
+
+    .btn_cont{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
