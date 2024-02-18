@@ -1,5 +1,5 @@
 import { images } from "@/assets/images";
-import { Button, TiptapEditor } from "@/components";
+import { Button } from "@/components";
 import {
   BlogSection,
   FooterSection

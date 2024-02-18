@@ -134,7 +134,7 @@ import miro from "./technologyLogos/miro.png"
 import cucumber from "./technologyLogos/cucumber.png"
 import lambdatest from "./technologyLogos/lambdatest.png"
 import soapUI from "./technologyLogos/soapUI.png"
-import Postman from "./technologyLogos/Postman.png"
+import Postman from "./technologyLogos/postman.png"
 import selenium from "./technologyLogos/selenium.png"
 
 
