@@ -1,0 +1,92 @@
+.ptab-form-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ptab-profile-sec {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ptab-prof-det {
+  display: flex;
+}
+
+.ptab-profile-badge {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background: #c8c9d0;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.ptab-lbl-badge {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ptab-fn-pln-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ptab-lbl-fl-name {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ptab-lbl-plan {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ptab-fa-sec1 {
+  display: flex;
+  gap: 20px;
+}
+
+.ptab-fa-sec1 .margin-top {
+  margin-top: 12px;
+}
+
+.ptab-fa-sec2 {
+  display: flex;
+  margin-top: 12px;
+}
+
+.ptab-fa-sec3 {
+  margin-top: 2px;
+}
+
+.ptab-fa-sec4 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ptab-fa-upd-mail {
+  cursor: pointer;
+}

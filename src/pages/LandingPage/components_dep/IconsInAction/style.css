@@ -1,0 +1,628 @@
+.IconsInAction{
+    display: flex;
+    flex-direction: column;
+    background: #f0f1f3;
+    width:100%;
+
+}
+.IconsInAction-inner{
+    max-width: 1170px;
+    padding:100px 50px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.IconsInAction .title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  padding-bottom:30px;
+}
+.IconsInAction .icons-in-action {
+  color: #1e3050;
+  text-align: center;
+  font: var(--h-2, 700 32px "Nunito Sans", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IconsInAction .ever-wonder-what-house-might-look-like-in-the-mix-well-you-re-in-luck-we-ve-cooked-up-some-examples-of-how-you-could-use-the-house-icon-in-your-projects-whether-they-re-apps-interfaces-or-print-designs {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-large, 600 18px "Nunito Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+
+
+.IconsInAction .items{
+    display: flex;
+    gap:30px;
+}
+/* ---------------------------------------------------------------- */
+
+.IconsInAction .dropdown {
+  
+  inset: 0;
+}
+.IconsInAction .bg {
+  background: #34354c;
+  border-radius: 20px;
+  height: 330px;
+  display:flex;
+  gap:20px;
+  padding:35px 30px;
+  
+
+}
+.IconsInAction .dropdown-list {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 230px;
+
+}
+.IconsInAction .body-oneline {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.IconsInAction .m {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .mail {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .c {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .calendar {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .body-oneline2 {
+  background: #f0f1f3;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.IconsInAction .f {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .notes {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .f2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .library {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .b {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .contacts {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .d {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .resources {
+  color: #1e3050;
+  text-align: left;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .dropdown-list2 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width:60px;
+}
+.IconsInAction .m2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .c2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .f3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .f4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .b2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.IconsInAction .d2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+/* ---------------------------------------------------------------- */
+
+
+.IconsInAction .rich-text-editor {
+
+}
+.IconsInAction .support {
+  background: #51c7fc;
+  border-radius: 20px;
+  width: 670px;
+  height: 330px;
+ 
+}
+.IconsInAction .text-editor {
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+.IconsInAction .background {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  width: 610px;
+  height: 300px;
+  padding:0px !important;
+  display: flex;
+  flex-direction: column;
+}
+.IconsInAction .editor-tools {
+ display: flex;
+ gap:20px;
+ padding:12px 20px;
+}
+
+.IconsInAction .seperator {
+  width: 1px;
+  height: 20px;
+  
+}
+.IconsInAction .divider-verticle {
+  background: #f0f1f3;
+  width: 1px;
+  height: 20px;
+}
+
+.IconsInAction .seperator2 {
+  /* width: 710px; */
+  height: 1px;
+  
+}
+.IconsInAction .divider-horizontal {
+  background: #f0f1f3;
+  /* width: 710px; */
+  height: 1px;
+}
+.IconsInAction .seperator3 {
+  /* width: 710px; */
+  height: 1px;
+}
+.IconsInAction .paragraph {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px;
+  flex:1;
+}
+.IconsInAction .actions{
+display: flex;
+ gap:20px;
+ padding:12px 20px;
+}
+.IconsInAction .type-something-here {
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.IconsInAction .type-something-here-span {
+  color: #1e3050;
+  font: var(--p-medium, 500 16px "Nunito Sans", sans-serif);
+}
+.IconsInAction .type-something-here-span2 {
+  color: #c5cad3;
+  font: var(--p-small, 500 14px "Nunito Sans", sans-serif);
+}
+
+
+/* ---------------------------------------------------------------- */
+
+.IconsInAction  .frame-37397 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 571px;
+  position: relative;
+  margin-top: -25px;
+}
+.IconsInAction  .group-37080 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2654 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: 0px;
+}
+.IconsInAction  .c {
+  position: absolute;
+  left: 52px;
+  top: 26px;
+  overflow: visible;
+}
+.IconsInAction  .group-37085 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .rectangle-9080508 {
+  background: #2f3037;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 165px;
+  top: 0px;
+}
+.IconsInAction  .c2 {
+  position: absolute;
+  left: 191px;
+  top: 26px;
+  overflow: visible;
+}
+.IconsInAction  .group-37087 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2655 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 305px;
+  top: 0px;
+}
+.IconsInAction  .m {
+  position: absolute;
+  left: 331px;
+  top: 26px;
+  overflow: visible;
+}
+.IconsInAction  .group-37086 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .rectangle-9080509 {
+  background: #2f3037;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 445px;
+  top: 0px;
+}
+.IconsInAction  .g {
+  position: absolute;
+  left: 471px;
+  top: 26px;
+  overflow: visible;
+}
+.IconsInAction  .group-37079 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2658 {
+  background: #24252a;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: 140px;
+}
+.IconsInAction  .a {
+  position: absolute;
+  left: 51px;
+  top: 166px;
+  overflow: visible;
+}
+.IconsInAction  .group-37076 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2656 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 165px;
+  top: 140px;
+}
+.IconsInAction  .g2 {
+  position: absolute;
+  left: 191px;
+  top: 166px;
+  overflow: visible;
+}
+.IconsInAction  .group-37077 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .rectangle-9080511 {
+  background: #2f3037;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 305px;
+  top: 140px;
+}
+.IconsInAction  .l {
+  position: absolute;
+  left: 331px;
+  top: 166px;
+  overflow: visible;
+}
+.IconsInAction  .group-37082 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-26562 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 445px;
+  top: 140px;
+}
+.IconsInAction  .c3 {
+  position: absolute;
+  left: 471px;
+  top: 166px;
+  overflow: visible;
+}
+.IconsInAction  .group-37084 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2657 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: 280px;
+}
+.IconsInAction  .b {
+  position: absolute;
+  left: 52px;
+  top: 306px;
+  overflow: visible;
+}
+.IconsInAction  .group-37078 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .rectangle-9080512 {
+  background: #2f3037;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 165px;
+  top: 280px;
+}
+.IconsInAction  .l2 {
+  position: absolute;
+  left: 191px;
+  top: 306px;
+  overflow: visible;
+}
+.IconsInAction  .group-37081 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .ellipse-2659 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 305px;
+  top: 280px;
+}
+.IconsInAction  .d {
+  position: absolute;
+  left: 331px;
+  top: 306px;
+  overflow: visible;
+}
+.IconsInAction  .group-37083 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.IconsInAction  .rectangle-9080513 {
+  background: #2f3037;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 445px;
+  top: 280px;
+}
+.IconsInAction  .g3 {
+  position: absolute;
+  left: 471px;
+  top: 306px;
+  overflow: visible;
+}
+.IconsInAction .rectangle-9080507 {
+  background: #ffce00;
+  border-radius: 20px;
+  width: 570px;
+  height: 330px;
+  position: relative;
+  overflow:hidden;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+
+
+.IconsInAction .group-37088 {
+   height: 330px;
+  width: 570px;
+  height: 330px;
+}
+.IconsInAction .rectangle-9080502 {
+    background: #5a4ed9;
+    border-radius: 20px;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 50px;
+    gap:40px;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.IconsInAction .their-sleek-lines-shapes-pairs-to-any-design {
+    color: #ffffff;
+    text-align: center;
+    font: var(--h-2, 700 32px "Nunito Sans", sans-serif);
+    width: 412px;
+    position: relative;
+    margin: auto;
+    bottom: 206PX;
+}

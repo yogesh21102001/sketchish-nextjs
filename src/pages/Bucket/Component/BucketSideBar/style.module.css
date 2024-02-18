@@ -1,0 +1,205 @@
+.bucket_sidebar_wraper * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bucket_sidebar_wraper {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.bucket_sidebar {
+    width: 19rem;
+    height: 100%;
+    background-color: #F9FAFB;
+    padding: 1.875rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+}
+
+.bucket_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1.25rem;
+    cursor: pointer;
+}
+
+.three_dots{
+    display: flex;
+    align-items: center;
+    width: 11%;
+}
+
+.label_cont{
+    padding: .6rem 0;
+}
+
+.edit_btn {
+    display: none;
+}
+
+.bucket_header:hover .edit_btn {
+    display: initial;
+}
+
+.bucket_header span {
+    overflow: hidden;
+    color: var(--shades-primary, #1E3050);
+    ;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: .5rem;
+}
+
+.bucket_header.active {
+    background-color: white;
+}
+
+.edit_cont .edit_inp {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--shades-primary, #1E3050);
+    padding: .6rem 0;
+}
+
+.edit_cont .action_btn {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.bucket_icons {
+    display: none;
+    width: 100%;
+    padding: 1.25rem;
+    gap: .625rem;
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr))
+}
+
+.bucket_icons.open {
+    display: grid;
+}
+
+.icon_card {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.3125rem;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--shades-light-grey, #F0F3F5);
+    background: var(--shades-tint-light-dark, #FFF);
+    cursor: pointer;
+}
+
+.icon_card_header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76%;
+    width: 100%;
+}
+
+.icon_card img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.empty_bucket {
+    height: 10rem;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty_bucket.open {
+    display: flex;
+}
+
+.loading_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+}
+
+@media(max-width:1024px) {
+    .bucket_sidebar {
+        width: 13rem;
+    }
+}
+
+@media(max-width:900px) {
+    .bucket_sidebar {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media(max-width:600px) {
+
+    .bucket_sidebar_wraper {
+        width: 100%;
+        position: fixed;
+        right: 0;
+        top: 0%;
+        z-index: 101;
+        width: 100%;
+    }
+
+    .bucket_sidebar {
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .close_btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 3rem;
+    }
+
+          .close_btn svg{
+            height: 2.1rem;
+            width: 2.1rem;
+          }
+
+          .my_bucket_heading{
+            padding: 0 1.25rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            font-family: var(--font);
+            font-weight: 800;
+            letter-spacing: .05rem;
+            color: #1E3050;
+          }
+
+}

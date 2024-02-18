@@ -1,0 +1,208 @@
+.thumbnail-menu,
+.thumbnail-menu * {
+  box-sizing: border-box;
+}
+.thumbnail-menu {
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #02d7b8;
+  border-radius: 20px;
+  width: 370px;
+  height: 330px;
+  position: relative;
+  padding-left:20px;
+  overflow: hidden;
+}
+.thumbnail-menu__option-3 {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail-menu__frame-37103 {
+  background: var(--light-background, #f0f1f3);
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #eef0f4;
+  border-width: 1px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.thumbnail-menu__p {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.thumbnail-menu__frame-37102 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail-menu__video-tutorials {
+  color: #1e3050;
+  text-align: left;
+  font: 700 14px/20px "Nunito Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__get-up-and-running-on-new-features-and-techniques {
+  color: #676f7e;
+  text-align: left;
+  font: 400 12px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__option-2 {
+  background: #fcf7f8;
+  border-radius: 8px 0px 0px 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail-menu__frame-371032 {
+  background: #ffe5eb;
+  border-radius: 4px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.thumbnail-menu__h {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.thumbnail-menu__frame-371022 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.thumbnail-menu__customer-stories {
+  color: #1e3050;
+  text-align: left;
+  font: 700 14px/20px "Nunito Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__learn-how-our-customer-are-making-big-changes {
+  color: #676f7e;
+  text-align: left;
+  font: 400 12px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__option-4 {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail-menu__f {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.thumbnail-menu__documentation {
+  color: #1e3050;
+  text-align: left;
+  font: 700 14px/20px "Nunito Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__all-the-boring-icon-you-need-we-ll-create-for-you {
+  color: #676f7e;
+  text-align: left;
+  font: 400 12px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__option-1 {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail-menu__w {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.thumbnail-menu__blog {
+  color: #1e3050;
+  text-align: left;
+  font: 700 14px/20px "Nunito Sans", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.thumbnail-menu__latest-news-updates-interesting-articles-and-info {
+  color: #676f7e;
+  text-align: left;
+  font: 400 12px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

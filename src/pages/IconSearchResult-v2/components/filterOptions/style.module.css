@@ -1,0 +1,61 @@
+.filter_option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0.625rem 1.25rem;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+
+.filter_option.active {
+    background-color: rgba(39, 63, 105, 0.05);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.left svg{
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.filter_option span {
+    color: var(--text-secondary, #676F7E);
+    text-align: right;
+
+    /* P/Small */
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.filter_option p {
+    overflow: hidden;
+    color: var(--text-primary, #1E3050);
+    text-overflow: ellipsis;
+
+    /* P/Small */
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.disable {
+    opacity: .5;
+    cursor: default;
+}
+
+.icon_img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: .5rem;
+}

@@ -1,0 +1,131 @@
+.search_and_filter_bar_wraper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search_and_filter_bar_wraper {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.search_and_filter_bar {
+    height: 4.375rem;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mid,
+.lft,
+.rgt {
+    display: flex;
+    height: 100%;
+    padding: 0rem 1.25rem;
+    align-items: center;
+    border-right: 1px solid var(--shades-light-grey, #F0F3F5);
+    width: 19rem;
+}
+
+.mid {
+    flex: 4;
+    gap: 1rem;
+}
+
+.filter_btn {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap: var(--gap-between, 0.625rem);
+}
+
+.filter_btn p {
+    color: var(--shades-primary, #1E3050);
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0375rem;
+}
+
+.mid .search_bar {
+    /* width: 85%; */
+    height: 100%;
+    border: none;
+    flex: 1;
+}
+
+.rgt {
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.rgt .bucket_txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.rgt p {
+    color: var(--shades-primary, #1E3050);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0375rem;
+}
+
+.menu_flip {
+    transform: rotate(180deg);
+}
+
+@media(max-width: 1024px) {
+
+    .lft,
+    .rgt {
+        width: 13rem;
+    }
+}
+
+@media(max-width: 900px){
+.lft{
+  display: none;
+}
+}
+
+@media(max-width: 600px){
+.rgt{
+  display: none;
+}
+
+.lft{
+    display: initial;
+    width: fit-content;
+}
+
+.lft p{
+    display: none;
+}
+
+.custom_dropdown{
+    display: none;
+}
+
+.mid{
+    padding: 0 1rem;
+}
+
+.search_and_filter_bar{
+    height: 3.375rem;
+}
+}

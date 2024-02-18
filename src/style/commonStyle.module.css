@@ -1,0 +1,249 @@
+.body_padding {
+  padding-left: 9.538rem;
+  padding-right: 9.538rem;
+}
+
+.search_bar_style {
+  /* max-width: initial; */
+  width: initial;
+}
+
+.btn_style {
+  display: flex;
+  padding: .7rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 6.25rem;
+  color: #1E3050;
+  font-size: 0.9375rem;
+  font-family: var(--font, "Nunito Sans");
+  font-weight: 800;
+  line-height: normal;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn_style svg {
+  width: 1.3rem;
+}
+
+.btn_style svg path {
+  stroke: #1E3050 !important;
+}
+
+.btn_style .tick_style path {
+  stroke: white !important;
+}
+
+.unfilled_light {
+  border: .1rem solid var(--icon-secondary, #676F7E);
+  background: var(--support-white, #FFF);
+}
+
+.filled_light {
+  background: var(--pastel-bright-green, #36DC5E);
+}
+
+.icon_cards_wraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.375rem, 1fr));
+}
+
+.icon_cards_wraper.max_width {
+  max-width: 76.875rem;
+}
+
+/* Pagination Start  */
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.pagination li {
+  cursor: pointer;
+}
+
+.pagination li a {
+  color: var(--brand-primary-violet, #7238fa);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 5px;
+}
+
+.pagination .previous,
+.pagination .next {
+  color: #7238fa !important;
+  font-family: "Nunito sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pagination .selected {
+  border-radius: 100px;
+  background: var(--brand-primary-violet, #7238fa);
+  color: var(--support-white, #fff);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* padding: 5px 10px; */
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pagination li.selected a {
+  color: white !important;
+}
+
+.pagination_btn {
+  color: var(--brand-primary-violet, #7238fa);
+  /* Title/Subtitle 1 */
+  font-family: var(--font, "Nunito Sans");
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Landing Page Btn */
+
+.btn_cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.btn_cont .lft_btn_cont,
+.btn_cont .rgt_btn_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.btn_cont .btn {
+  display: flex;
+  height: 3.125rem;
+  padding: 0.6875rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+
+  color: var(--shades-primary, #1E3050);
+  text-align: center;
+  text-transform: capitalize;
+
+  /* Button/Button */
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 0.5rem / 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn_cont p {
+  color: rgba(1, 8, 24, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: .32rem;
+  margin: 0;
+}
+
+.btn_cont p svg {
+  height: 100%;
+}
+
+/* Pagination End  */
+
+@media(max-width: 1281px) {
+  .body_padding {
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+  }
+
+  .icon_cards_wraper {
+    grid-template-columns: repeat(auto-fill, minmax(10.75rem, 1fr));
+  }
+}
+
+@media(max-width: 1024px) {
+  .icon_cards_wraper {
+    grid-template-columns: repeat(auto-fill, minmax(7.75rem, 1fr));
+  }
+
+  .btn_cont .btn {
+    font-size: 0.775rem;
+  }
+}
+
+@media(max-width: 900px) {
+  .body_padding {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+  }
+}
+
+@media(max-width: 600px) {
+  .body_padding {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+
+  .icon_cards_wraper {
+    grid-template-columns: repeat(auto-fill, minmax(23vw, 1fr));
+  }
+
+  .btn_cont .btn {
+    height: 12vw;
+    padding: 2vw 3.5vw;
+    font-size: 2.7vw;
+  }
+
+  .btn_cont .btn svg {
+    height: 7vw;
+  }
+
+    .btn_cont p{
+      font-size: 2.6vw;
+    }
+}

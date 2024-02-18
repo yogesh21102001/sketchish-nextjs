@@ -1,0 +1,34 @@
+export { Features } from "./Features/Features";
+export { NoPage } from "./NoPage/NoPage";
+export { Pricing } from "./Pricing/PricingPage.jsx";
+export { Profile } from "./Profile/profile.js";
+export { ProfileNew } from "./Profile/Profile.jsx";
+export { StyleSet } from "./StyleSet/StyleSet.jsx";
+export { IconResult } from "./IconResult/iconsResult";
+export { CategoryResult } from './IconResult/categoryResult'
+export { PrivacyPolicy } from "./Footer/privacyPolicy";
+export { Terms } from "./Footer/terms";
+export { ContactUs } from "./Contact/ContactUs.jsx";
+export { Invoice } from "./InvoicePage/index";
+export { LandingPage } from "./LandingPage/LandingPage";
+export { LandingPageFeatures } from "./LandingPage/LandingPageFeatures";
+export { LandingPageFreebies } from "./LandingPage/LandingPageFreebies";
+export { LandingPageRequest } from "./LandingPage/LandingPageRequest";
+export { LandingPageStory } from "./LandingPage/LandingPageStory";
+export { LandingPageUseCase } from "./LandingPage/LandingPageUseCase";
+export { LandingPageblog } from "./LandingPage/LandingPageblog";
+export { LandingPageV2 } from "./landingPage-v2/LandingPageV2";
+export { FigmaSuccess } from "./FigmaSuccess/FigmaSuccess.jsx";
+export { UserLogin } from './SiginIn'
+// -------------------------Admin Pages ------------------------------//
+export { SignIn } from "./Admin/signIn";
+export { CustomersList } from "./Admin/Customer/CustomersList";
+export { ReportList } from "./Admin/Report/ReportList";
+export { ReportDetail } from "./Admin/Report/reportDetails";
+export { AddProduct, AddProductIcon, ProductList, ReviewIcons } from "./Admin/Product/index";
+export { AdminSettings } from "./Admin/Settings/AdminSettings";
+export { FreeLicence } from "./FreeLicence/FreeLicence";
+export { KeyWords } from "./Keywords/KeyWords.jsx";
+export { IconDetails } from "./IconDetails-v2/IconDetails.jsx";
+export { IconSearchResult } from "./IconSearchResult-v2/IconSearchResult.jsx";
+export { Bucket } from "./Bucket/Bucket.jsx";

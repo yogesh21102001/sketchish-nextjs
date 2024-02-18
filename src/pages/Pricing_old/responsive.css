@@ -1,0 +1,57 @@
+@media only screen and (max-width: 850px) {
+  .plans-grid {
+    flex-flow: wrap;
+    gap: 20px;
+  }
+  .plans-card-root {
+    width: 48%;
+  }
+  .included-feature-grid {
+    flex-flow: wrap;
+  }
+  .included-feature-item {
+    width: 48% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offer-line p {
+    padding: 20px 60px;
+    text-align: center;
+  }
+  .offer-line {
+    height: unset;
+  }
+  .plans-title h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .plans-toggle {
+    margin: 30px 0;
+  }
+  .plans-card-root {
+    width: 100%;
+  }
+  .plams-grid-bottom {
+    flex-direction: column;
+  }
+  .plans-grid {
+    margin-bottom: 15px;
+  }
+  .included-feature {
+    padding: 45px 0;
+  }
+  .includ-title h2 {
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .included-feature-item {
+    width: 100% !important;
+  }
+  .frequently-ask-question-inner h2 {
+    padding-bottom: 30px;
+  }
+  .frequetly-questoin-grid {
+    gap: 20px 0;
+  }
+}

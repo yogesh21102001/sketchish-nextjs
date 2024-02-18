@@ -1,0 +1,6 @@
+export { ReactComponent as BrandLogo } from "./OS.svg"
+export { ReactComponent as BrandName } from "./openstrokeicons.svg"
+export { ReactComponent as BrandNameWhite } from "./Brandnamewhite.svg"
+export { ReactComponent as TrilSvg } from "./Trial.svg"
+export { ReactComponent as MenuSvg } from "./Menu.svg"
+export { ReactComponent as CloseMenu } from "./Close.svg"

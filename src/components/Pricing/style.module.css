@@ -1,0 +1,167 @@
+.pricing_modal_cont * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.pricing_modal_cont {
+    width: 48.5rem;
+    height: 37.5rem;
+    padding: 1.87rem;
+    box-sizing: border-box;
+}
+
+.header p {
+    color: var(--text-primary, #1E3050);
+    font-family: var(--font, "Nunito Sans");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    align-items: center;
+}
+
+.header p svg {
+    margin-right: .5rem;
+}
+
+.header .message_cont {
+    display: flex;
+    width: 100%;
+    padding: 0.875rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid #F7CD5A;
+    background: #FEF9EB;
+    margin-top: 1.5rem;
+}
+
+.header .message_cont p {
+    color: var(--text-primary, #1E3050);
+    font-family: var(--font, "Nunito Sans");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header .message_cont h5 {
+    font-family: var(--font, "Nunito Sans");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(95deg, #6936E6 0%, #0094FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing_sec .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pricing_sec .tabs p {
+    display: inline-flex;
+    padding: 0.625rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-primary, #1E3050);
+    text-align: center;
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.pricing_sec {
+    margin-top: 2.5rem;
+}
+
+.pricing_sec .tabs p.active {
+    color: var(--Label, #7238FA);
+}
+
+.pricing_card_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: .69rem;
+}
+
+.btm_text_cont p {
+    margin-top: 2.28rem;
+    cursor: pointer;
+
+    color: var(--shades-secondary, #676F7E);
+
+    /* Button/Button */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tariffs_switch {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 43.25rem;
+    position: relative;
+    margin-bottom: 1.66rem;
+}
+
+.tariffs_switch_pricing_page {
+    width: fit-content;
+}
+
+.tariffs_switch p {
+    color: var(--shades-primary, #1E3050);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    gap: .31rem;
+}
+
+.tariffs_switch p svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.tariffs_switch p.active {
+    color: var(--brand-primary-violet, #7238FA);
+}
+
+.tariffs_switch p span {
+    color: #18BE41;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media(max-width: 900px) {
+    .pricing_modal_cont {
+        width: 48.5rem;
+    }
+}

@@ -1,0 +1,20 @@
+<svg width="354" height="354" viewBox="0 0 354 354" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M353 1H1V353H353V1Z" fill="url(#pattern0)" stroke="#E3E4E7"/>
+<g style="mix-blend-mode:multiply">
+<path d="M230.988 151.857C230.988 172.095 232.928 191.057 245.384 207.933L247.184 210.371C251.633 216.399 247.4 225 239.986 225H114.014C106.6 225 102.367 216.399 106.816 210.371L108.616 207.933C121.072 191.057 123.012 172.095 123.012 151.857C123.012 121.56 145.429 97 177 97C208.571 97 230.988 121.56 230.988 151.857Z" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path d="M209 225C209 242.673 194.673 257 177 257C159.327 257 145 242.673 145 225H209Z" stroke="black" stroke-width="8"/>
+</g>
+<path d="M17 1V17H1" stroke="#3F5AD3"/>
+<path d="M17 353V337H1" stroke="#3F5AD3"/>
+<path d="M337 1V17H353" stroke="#3F5AD3"/>
+<path d="M337 353V337H353" stroke="#3F5AD3"/>
+<path d="M145 227.5C143.619 227.5 142.5 226.381 142.5 225C142.5 223.619 143.619 222.5 145 222.5C146.381 222.5 147.5 223.619 147.5 225C147.5 226.381 146.381 227.5 145 227.5Z" fill="white" stroke="#3F5AD3"/>
+<path d="M209 227.5C207.619 227.5 206.5 226.381 206.5 225C206.5 223.619 207.619 222.5 209 222.5C210.381 222.5 211.5 223.619 211.5 225C211.5 226.381 210.381 227.5 209 227.5Z" fill="white" stroke="#3F5AD3"/>
+<path d="M177 259.5C175.619 259.5 174.5 258.381 174.5 257C174.5 255.619 175.619 254.5 177 254.5C178.381 254.5 179.5 255.619 179.5 257C179.5 258.381 178.381 259.5 177 259.5Z" fill="white" stroke="#3F5AD3"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0454545" height="0.0454545">
+<use xlink:href="#image0_7272_10599" transform="scale(0.00142045)"/>
+</pattern>
+<image id="image0_7272_10599" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7daxDQAgCERR0MFczc2MlcZGFzIaV5CC5l9DdckLDWgfq5x9qnxEo6Y3Tf3WZpbPvK61H8Q5AAAAAAAAgHqfY/cN8A8AAAAAAAAA7v/ABQ2qOIW4+gKWAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

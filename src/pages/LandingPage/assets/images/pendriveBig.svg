@@ -1,0 +1,21 @@
+<svg width="354" height="354" viewBox="0 0 354 354" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M353 1H1V353H353V1Z" fill="url(#pattern0)" stroke="#E3E4E7"/>
+<path d="M137 99C137 97.8954 137.895 97 139 97H215C216.105 97 217 97.8954 217 99V167C217 168.105 216.105 169 215 169H139C137.895 169 137 168.105 137 167V99Z" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path d="M231 169H123M106 257H248C248.552 257 249 256.552 249 256V170C249 169.448 248.552 169 248 169H106C105.448 169 105 169.448 105 170V256C105 256.552 105.448 257 106 257Z" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path d="M193 121L193 145" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path d="M161 121L161 145" stroke="black" stroke-width="8" stroke-linecap="round"/>
+<path d="M17 1V17H1" stroke="#3F5AD3"/>
+<path d="M17 353V337H1" stroke="#3F5AD3"/>
+<path d="M337 1V17H353" stroke="#3F5AD3"/>
+<path d="M337 353V337H353" stroke="#3F5AD3"/>
+<path d="M106 172.5C104.619 172.5 103.5 171.381 103.5 170C103.5 168.619 104.619 167.5 106 167.5C107.381 167.5 108.5 168.619 108.5 170C108.5 171.381 107.381 172.5 106 172.5Z" fill="white" stroke="#3F5AD3"/>
+<path d="M248 172.5C246.619 172.5 245.5 171.381 245.5 170C245.5 168.619 246.619 167.5 248 167.5C249.381 167.5 250.5 168.619 250.5 170C250.5 171.381 249.381 172.5 248 172.5Z" fill="white" stroke="#3F5AD3"/>
+<path d="M106 258.5C104.619 258.5 103.5 257.381 103.5 256C103.5 254.619 104.619 253.5 106 253.5C107.381 253.5 108.5 254.619 108.5 256C108.5 257.381 107.381 258.5 106 258.5Z" fill="white" stroke="#3F5AD3"/>
+<path d="M248 258.5C246.619 258.5 245.5 257.381 245.5 256C245.5 254.619 246.619 253.5 248 253.5C249.381 253.5 250.5 254.619 250.5 256C250.5 257.381 249.381 258.5 248 258.5Z" fill="white" stroke="#3F5AD3"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0454545" height="0.0454545">
+<use xlink:href="#image0_7272_10570" transform="scale(0.00142045)"/>
+</pattern>
+<image id="image0_7272_10570" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABVSURBVHgB7daxDQAgCERR0MFczc2MlcZGFzIaV5CC5l9DdckLDWgfq5x9qnxEo6Y3Tf3WZpbPvK61H8Q5AAAAAAAAgHqfY/cN8A8AAAAAAAAA7v/ABQ2qOIW4+gKWAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

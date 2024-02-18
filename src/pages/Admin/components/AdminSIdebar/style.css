@@ -1,0 +1,223 @@
+.side-menu {
+  position:fixed;
+  background: var(--support-white, #ffffff);
+  border-style: solid;
+  border-color: #c5cad3;
+  border-width: 0px 1px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  height: calc(100vh - 76px);
+  position: relative;
+}
+.primary {
+  border-style: solid;
+  border-color: #c5cad3;
+  border-width: 0px 0px 1px 0px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.adminSide-icon-btn {
+  background: var(--support-white, #ffffff);
+  padding: 14px 20px 14px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.f {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.dashboard {
+  color: var(--text-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.p {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.icons2 {
+  color: var(--icon-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width:195px;
+}
+.adminSide-icon-btn.active {
+  background: var(--support-light-grey, #f0f3f5);
+}
+.user-circle-3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.customers2 {
+  color: var(--brand-primary-violet, #7238fa);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reports {
+  background: var(--support-white, #ffffff);
+  padding: 14px 20px 14px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.i {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.reports2 {
+  color: var(--text-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.secondary {
+  border-style: solid;
+  border-color: #c5cad3;
+  border-width: 0px 0px 1px 0px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.privacy-policy {
+  background: var(--support-white, #ffffff);
+  padding: 14px 20px 14px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.l {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.privacy-policy2 {
+  color: var(--text-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.terms-conditions {
+  background: var(--support-white, #ffffff);
+  padding: 14px 20px 14px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.d {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.terms-conditions2 {
+  color: var(--text-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tertiary {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.settings {
+  background: var(--support-white, #ffffff);
+  padding: 14px 20px 14px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.s {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.settings2 {
+  color: var(--text-primary, #1e3050);
+  text-align: left;
+  font: 500 15px "Nunito Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.active .icons2{
+    color: #7238FA;
+}
+.compact .icons2{
+    display: none !important;
+}

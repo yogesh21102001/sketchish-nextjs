@@ -1,0 +1,45 @@
+.search-container {
+  border-radius: 0px;
+  border: 1px solid #C5CAD3;
+  max-width: 74.625rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.close svg {
+  background: #C5CAD3;
+  border-radius: 20px;
+}
+
+.search-container-button {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.0625rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0.0625rem;
+  flex-wrap: wrap;
+  border-radius: 6.25rem;
+  background: #36DC5E;
+}
+
+.search-container-button2 {
+  color: var(--text-primary, #1e3050);
+  text-align: center;
+  font: var(--button, 800 15px "Nunito Sans", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-close-circle {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  margin-right: 10px !important;
+}

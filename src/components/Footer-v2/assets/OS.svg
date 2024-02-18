@@ -1,0 +1,19 @@
+<svg width="143" height="140" viewBox="0 0 143 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="OS">
+<rect id="Rectangle 90009103" width="152.971" height="63.9699" rx="31.9849" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 101.7 101.466)" stroke="url(#paint0_linear_13177_1915)" stroke-width="22.2603"/>
+<rect id="Rectangle 90009104" width="152.971" height="63.9699" rx="31.9849" transform="matrix(-0.707107 0.707107 0.707107 0.707107 56.4668 -6.7002)" stroke="url(#paint1_linear_13177_1915)" stroke-width="22.2603"/>
+<circle id="O" cx="70.2329" cy="70.0012" r="13.9065" transform="rotate(-135 70.2329 70.0012)" fill="white"/>
+<circle id="O_2" cx="24.9995" cy="115.234" r="13.9065" transform="rotate(-135 24.9995 115.234)" fill="white"/>
+<circle id="O_3" cx="24.9995" cy="24.7659" r="13.9065" transform="rotate(-135 24.9995 24.7659)" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_13177_1915" x1="0" y1="0" x2="152.971" y2="63.9699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7638FA"/>
+<stop offset="1" stop-color="#4CC3F9"/>
+</linearGradient>
+<linearGradient id="paint1_linear_13177_1915" x1="0" y1="0" x2="152.971" y2="63.9699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC109"/>
+<stop offset="1" stop-color="#FF0BE6"/>
+</linearGradient>
+</defs>
+</svg>

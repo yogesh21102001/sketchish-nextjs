@@ -1,0 +1,29 @@
+.upd-prof-con-main {
+  display: flex;
+  padding: 50px 50px 30px 50px;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.upd-prof-head {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.upd-prof-tb {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.upd-prof-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.inpit_cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}

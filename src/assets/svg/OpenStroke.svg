@@ -1,0 +1,30 @@
+<svg width="51" height="54" viewBox="0 0 51 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="3" width="18" height="18" stroke="black" stroke-width="6"/>
+<rect x="3" y="3" width="18" height="18" stroke="#0D99FF"/>
+<path d="M28 8H50" stroke="black" stroke-width="6"/>
+<path d="M28 17H42" stroke="black" stroke-width="6"/>
+<rect x="4" y="4" width="2" height="2" transform="rotate(180 4 4)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="4" y="22" width="2" height="2" transform="rotate(180 4 22)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="22" y="4" width="2" height="2" transform="rotate(180 22 4)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<path d="M29 8H49" stroke="#0D99FF"/>
+<path d="M29 17H41" stroke="#0D99FF"/>
+<rect x="30" y="9" width="2" height="2" transform="rotate(180 30 9)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="30" y="18" width="2" height="2" transform="rotate(180 30 18)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="50" y="9" width="2" height="2" transform="rotate(180 50 9)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="42" y="18" width="2" height="2" transform="rotate(180 42 18)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="22" y="22" width="2" height="2" transform="rotate(180 22 22)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="3" y="33" width="18" height="18" stroke="black" stroke-width="6"/>
+<rect x="3" y="33" width="18" height="18" stroke="#0D99FF"/>
+<path d="M28 38H50" stroke="black" stroke-width="6"/>
+<path d="M28 47H42" stroke="black" stroke-width="6"/>
+<rect x="4" y="34" width="2" height="2" transform="rotate(180 4 34)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="4" y="52" width="2" height="2" transform="rotate(180 4 52)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="22" y="34" width="2" height="2" transform="rotate(180 22 34)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<path d="M29 38H49" stroke="#0D99FF"/>
+<path d="M29 47H41" stroke="#0D99FF"/>
+<rect x="30" y="39" width="2" height="2" transform="rotate(180 30 39)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="30" y="48" width="2" height="2" transform="rotate(180 30 48)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="50" y="39" width="2" height="2" transform="rotate(180 50 39)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="42" y="48" width="2" height="2" transform="rotate(180 42 48)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+<rect x="22" y="52" width="2" height="2" transform="rotate(180 22 52)" fill="white" stroke="#0D99FF" stroke-width="0.5"/>
+</svg>

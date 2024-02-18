@@ -1,0 +1,63 @@
+.result_not_found_cont {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.bucket_icon{
+    margin-right: 3rem;
+}
+
+.result_not_found_cont h3 {
+    color: var(--shades-primary, #1E3050);
+        text-align: center;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 2.33rem;
+}
+
+.result_not_found_cont p {
+    color: var(--shades-secondary, #676F7E);
+        text-align: center;
+        font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 0.62rem;
+}
+
+.result_not_found_cont button {
+    display: inline-flex;
+    height: 2.75rem;
+    padding: 0.6875rem 1.375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: var(--brand-primary-violet, #7238FA);
+    color: var(--shades-primary, #FFF);
+    text-align: center;
+
+    /* Button/Button */
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}

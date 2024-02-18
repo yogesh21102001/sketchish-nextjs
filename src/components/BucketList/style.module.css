@@ -1,0 +1,66 @@
+.add_to_bucket_wraper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add_to_bucket_wraper {
+    margin-top: 1rem;
+}
+
+.add_to_bucket_cont {
+    display: flex;
+    width: 18.75rem;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border: .1rem solid var(--support-dark-grey, #C5CAD3);
+    background: var(--support-white, #FFF);
+    /* box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.10); */
+}
+
+.add_to_bucket_header {
+    padding: .1rem 0;
+    border-bottom: .08rem solid #C5CAD3;
+    width: 100%;
+}
+
+.add_to_bucket_header p {
+    color: var(--text-secondary, #676F7E);
+
+    /* P/Small */
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.add_to_bucket_cont .options_cont {
+    width: 100%;
+}
+
+.add_to_bucket_cont .option {
+    width: 100%;
+    padding: 0.625rem 0rem;
+    cursor: pointer;
+    border-bottom: .07rem solid #F0F3F5;
+}
+
+.add_to_bucket_cont .option:last-child {
+    border: none;
+}
+
+.add_to_bucket_cont .option p {
+    color: var(--icon-primary, #1E3050);
+    font-family: var(--font, "Nunito Sans");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all .3s;
+}
+
+.add_to_bucket_cont .option:hover p {
+    color: blueviolet;
+}

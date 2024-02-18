@@ -1,0 +1,157 @@
+.wraper * {
+    box-sizing: border-box;
+}
+
+.wraper {
+    background: #010818;
+    padding-top: 3.12rem;
+}
+
+.illustration_cont {
+    background: #010818;
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.overlay .gradient {
+    width: 100%;
+    height: 6.25rem;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #010818 0%, rgba(1, 8, 24, 0.00) 100%);
+}
+
+.overlay .gradient:last-child {
+    /* background: linear-gradient(0deg, #FFF 10%, rgba(255, 255, 255, 0.00) 90%); */
+    background: linear-gradient(0deg, #010818 10%, rgba(1, 8, 24, 0.00) 90%);
+}
+
+.reviews_cont {
+    width: 100%;
+    height: 40rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.testimonial_cards:first-child {
+    height: 10rem;
+}
+
+.testimonial_cards {
+    display: flex;
+    width: 16.65625rem;
+    padding: 1.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 15rem;
+    gap: 1.25rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(147deg, rgba(227, 228, 231, 0.10) 0%, rgba(227, 228, 231, 0.05) 98.83%, rgba(227, 228, 231, 0.05) 98.83%);
+    box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+}
+
+.testimonials{
+    /* height: 924px; */
+    width: 1156.5px;
+    aspect-ratio: 4/3;
+    background-image: url("../../assets/images/Testimonials.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes scroll {
+
+    0%,
+    100% {
+        transform: translateY(-25%);
+    }
+
+    50% {
+        transform: translateY(25%);
+    }
+}
+
+.motion {
+    max-width: 82.92825rem;
+    animation: scroll 80s linear infinite;
+}
+
+@media(max-width: 1280px) {
+    .motion {
+        width: 90%;
+    }
+}
+
+@media(max-width: 900px) {
+    @keyframes scroll {
+
+        0%,
+        100% {
+            transform: translateY(-10%);
+        }
+
+        50% {
+            transform: translateY(10%);
+        }
+    }
+
+    .overlay .gradient {
+        height: 3rem;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .illustration_cont svg {
+        height: initial;
+    }
+
+    .illustration_cont {
+        height: 13rem;
+        margin-top: 3vw;
+    }
+
+    @keyframes scroll {
+
+        0%,
+        100% {
+            transform: translateY(-23%);
+        }
+
+        50% {
+            transform: translateY(23%);
+        }
+    }
+
+    .overlay .gradient {
+        height: 1.5rem;
+    }
+
+        .wraper{
+            padding-top: 5vw;
+        }
+}

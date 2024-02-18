@@ -1,0 +1,109 @@
+.search_container {
+    display: flex;
+    width: 20rem;
+    height: 3.125rem;
+    justify-content: flex-start;
+    gap: .5rem;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid var(--text-primary, #1E3050);
+    background: var(--support-white, #FFF);
+
+    color: var(--text-primary, #1E3050);
+
+    /* Link/Link */
+    font-family: var(--font, "Nunito Sans");
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+.search_container input::placeholder {
+    color: var(--text-secondary, #676F7E);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search_container ul li {
+    transition: all .3s;
+    cursor: pointer;
+    margin-bottom: .6rem;
+}
+
+.search_container ul li:last-child {
+    margin: initial;
+}
+
+.search_container ul {
+    padding: .6rem;
+    top: 102%;
+    left: 0;
+}
+
+.search_container ul li:hover {
+    background: var(--support-light-grey, #F0F3F5);
+}
+
+.search_container svg circle {
+    fill: #1E3050;
+}
+
+.input_box {
+    width: 90%;
+    position: initial;
+    font-size: .8rem !important;
+    font-family: var(--font) ;
+    font-weight: 500 !important;
+}
+
+.search_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 100%;
+    background-color: #7238FA;
+    cursor: pointer;
+}
+
+.search_btn svg {
+    height: 50%;
+    width: 50%;
+}
+
+.search_btn svg path {
+    stroke: white;
+}
+
+.lft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 77%;
+    gap: .2rem;
+}
+
+.rgt{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+    width: 23%;
+}
+
+@media(max-width:600px) {
+    .search_container {
+        width: 100%;
+        padding: 0 2vw !important;
+    }
+
+        .input_box{
+            width: 64%;
+        }
+}

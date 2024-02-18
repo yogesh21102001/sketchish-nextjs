@@ -1,0 +1,17 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="OS">
+<rect id="Rectangle 90009105" x="9.25" y="1.25" width="11.5" height="27.5" rx="5.75" stroke="url(#paint0_linear_12700_4637)" stroke-width="2.5"/>
+<rect id="Rectangle 90009106" x="28.75" y="9.25" width="11.5" height="27.5" rx="5.75" transform="rotate(90 28.75 9.25)" stroke="url(#paint1_linear_12700_4637)" stroke-width="2.5"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M9.25 8C9.94036 8 10.5 8.55964 10.5 9.25C10.5 9.94036 9.94036 10.5 9.25 10.5C8.55964 10.5 8 9.94036 8 9.25C8 8.55964 8.55964 8 9.25 8ZM9.25 19.5C9.94036 19.5 10.5 20.0596 10.5 20.75C10.5 21.4404 9.94036 22 9.25 22C8.55964 22 8 21.4404 8 20.75C8 20.0596 8.55964 19.5 9.25 19.5ZM22 9.25C22 8.55964 21.4404 8 20.75 8C20.0596 8 19.5 8.55964 19.5 9.25C19.5 9.94036 20.0596 10.5 20.75 10.5C21.4404 10.5 22 9.94036 22 9.25ZM20.75 19.5C21.4404 19.5 22 20.0596 22 20.75C22 21.4404 21.4404 22 20.75 22C20.0596 22 19.5 21.4404 19.5 20.75C19.5 20.0596 20.0596 19.5 20.75 19.5Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_12700_4637" x1="15" y1="-6.375" x2="29.3653" y2="0.905496" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4CC3F9"/>
+<stop offset="1" stop-color="#7638FA"/>
+</linearGradient>
+<linearGradient id="paint1_linear_12700_4637" x1="26.25" y1="3.75" x2="46.9902" y2="5.2021" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC109"/>
+<stop offset="1" stop-color="#FF0AE6"/>
+</linearGradient>
+</defs>
+</svg>

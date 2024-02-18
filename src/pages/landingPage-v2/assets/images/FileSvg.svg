@@ -1,0 +1,17 @@
+<svg width="298" height="235" viewBox="0 0 298 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+   .draw_file {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 3s linear infinite; /* 5s animation duration */
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+<path class="draw_file" d="M1 1H82.1746L125.628 36.1902H297V234H1V1Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path class="draw_file" d="M1 77H297" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,36 @@
+.styled-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(1rem - 3px) 2rem;
+  border: none;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 0.9375rem;
+  box-sizing:border-box;
+  cursor: pointer;
+
+  &__filled-light {
+    background-color: #36DC5E;
+    border-color: #1E3050;
+  }
+
+  &__filled-dark {
+    background-color: #36DC5E;
+    border-color: #1E3050;
+  }
+
+  &__unfilled-light {
+    background-color: #ffffff !important;
+    border-color: #676F7E;
+  }
+
+  &__unfilled-dark {
+    background-color: #F0F3F5;
+    border-color: #1E3050;
+  }
+
+  &__choosed {
+    border-color: #C5CAD3;
+  }
+}

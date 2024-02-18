@@ -1,0 +1,95 @@
+.figma-logged__container {
+  background: var(--support-white, #ffffff);
+  border-style: solid;
+  border-color: #c5cad3;
+  border-width: 0px 0px 1px 0px;
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 840px;
+  position: relative;
+}
+.figma-logged__frame-37705 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.figma-logged__os {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.figma-logged__seperator {
+  flex-shrink: 0;
+  width: 30px;
+  height: 1px;
+  position: relative;
+}
+.figma-logged__divider-horizontal {
+  background: var(--icon-primary, #1e3050);
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.figma-logged__icon-tick {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.figma-logged__icon-figma {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  position: relative;
+}
+.figma-logged__brand-logos {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.figma-logged__frame-37519 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 740px;
+  position: relative;
+}
+.figma-logged__frame-37518 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.figma-logged__awesome-you-re-logged-in-figma-plugin {
+  color: var(--text-primary, #1e3050);
+  text-align: center;
+  font: var(--header-h-2, 800 32px "Nunito Sans", sans-serif);
+  position: relative;
+}
+.figma-logged__go-to-figma-plugin-and-explore-our-assets {
+  color: var(--text-secondary, #676f7e);
+  text-align: center;
+  font: var(--p-medium, 600 16px "Nunito Sans", sans-serif);
+  position: relative;
+  align-self: stretch;
+}

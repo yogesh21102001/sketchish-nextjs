@@ -1,0 +1,163 @@
+.figure_section {
+    display: flex;
+    padding: 6.25rem 0rem;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.figures_cont {
+    display: flex;
+    max-width: 80.625rem;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.875rem 0rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.figures {
+    display: flex;
+    max-width: 19.625rem;
+    min-height: 7.8125rem;
+    padding: 0rem 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    /* flex: 1 0 0; */
+    height: 5vw;
+}
+
+.figure_av {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.figures p {
+color: rgba(1, 8, 24, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.figures h3 {
+color: #010818;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.2625rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.avtar_cont,
+.avtars {
+    display: flex;
+    align-items: center;
+}
+
+.avtars {
+    margin-left: -.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
+
+.avtars img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avtars:first-child {
+    margin: initial;
+}
+
+@media(max-width: 1280px){
+    .figures{
+        max-width: 16.625rem;
+    }
+}
+
+@media(max-width: 1024px){
+.figures h3{
+    font-size: 2.4rem;
+}
+
+.figures {
+    max-width: 12.625rem;
+}
+}
+
+@media(max-width: 900px) {
+
+    .figure_section {
+        padding: 6.25vw 0;
+    }
+
+    .figures {
+        max-width: 35vw;
+    }
+
+    .figures h3 {
+        font-size: 5vw;
+    }
+
+    .figures p {
+        font-size: 2.1vw;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .figure_section {
+        padding: 10vw 0;
+    }
+
+    .figures_cont {
+        gap: 3vw;
+    }
+
+    .figures {
+        max-width: 51vw;
+        min-height: 22vw;
+        height: initial;
+        gap: 0;
+    }
+
+    .figure_section h3 {
+        font-size: 7vw;
+    }
+
+    .figure_section p {
+        font-size: 3.2vw;
+    }
+
+    .figures svg {
+        height: 8vw;
+    }
+
+    .figure_av {
+        gap: 1vw;
+    }
+
+    .figure_av .avtars {
+        margin-left: -2.5vw;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .figure_av .avtars:first-child {
+        margin: initial;
+    }
+
+}

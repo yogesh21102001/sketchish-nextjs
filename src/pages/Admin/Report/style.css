@@ -1,0 +1,36 @@
+.report-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2f3037;
+  display: flex;
+  gap: 20px;
+}
+.report-hed {
+  display: flex;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+}
+.report-detail-acc {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #c8c9d0;
+  border-radius: 100px;
+  padding: 10px;
+}
+.align-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.report-text-item {
+  list-style: none;
+}
+.padding {
+  padding: 0 30px;
+}

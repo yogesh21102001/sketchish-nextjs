@@ -1,0 +1,86 @@
+.des-text-1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.design-cotainer {
+  margin: 95px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-item {
+  display: flex;
+  background: linear-gradient(112.09deg, #7238fa 0%, #fa3838 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  mix-blend-mode: multiply;
+  margin: 0;
+}
+.list-item-1 {
+  list-style: none;
+}
+.item-data {
+  margin: 0;
+  padding: 0 7px 0 0;
+}
+.design-body {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.des-con1 {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icon-sec {
+  display: flex;
+  gap: 57px;
+  flex-wrap: wrap;
+  width: 394px;
+  justify-content: center;
+}
+.des-text-2 {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5e5f6e;
+}
+.icon-svg {
+  width: 352px;
+  height: 352px;
+}
+.container-body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  z-index: -1;
+}
+.logo-sec {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #c8c9d0;
+}
+.logo-con {
+  display: flex;
+  gap: 65px;
+  justify-content: center;
+}
+.logo-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

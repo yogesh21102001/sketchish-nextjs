@@ -1,0 +1,27 @@
+.supported-on {
+  display: flex;
+  justify-content: center;
+  padding:100px 0px;
+}
+.supported-on__logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height:488px;
+  width:100%;
+  max-width: 821px;
+}
+
+.supported-on__logos img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 850px){
+  .supported-on{
+    padding:30px;
+  }
+
+}

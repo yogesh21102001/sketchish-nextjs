@@ -1,0 +1,140 @@
+.icon_card * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon_card {
+    position: relative;
+    display: flex;
+    height: 9.375rem;
+    padding: 0.625rem;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+
+    border: .1px solid var(--support-light-grey, #F0F3F5);
+    background-color: white;
+    transition: all .5s;
+}
+
+.icon_card.hover:hover {
+    border: .1px solid var(--support-light-grey, #7238FA);
+}
+
+.icon_card.hover .add_to_bucket {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.icon_card.hover:hover .add_to_bucket {
+    opacity: 1;
+}
+
+.icon_card.active {
+    border: .1px solid var(--support-light-grey, #7238FA);
+}
+
+.new_flag {
+    position: absolute;
+    top: -.1rem;
+    left: 0rem;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-top: 5% !important;
+}
+
+.add {
+    position: absolute;
+    right: .62rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.add:hover path {
+    fill: rgb(227, 28, 28);
+}
+
+.pro {
+    position: absolute;
+    left: .62rem;
+    display: none;
+}
+
+.icon_card:hover .pro {
+    display: block;
+}
+
+.icon_preview {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68%;
+    width: 100%;
+}
+
+.icon_preview img {
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.lable {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lable p {
+    color: var(--text-secondary, #676F7E);
+    text-align: center;
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.popover_cont {
+    position: relative;
+}
+
+@media(max-width:1024px) {
+    .icon_card {
+        height: 7.45rem;
+    }
+
+    .icon_preview img {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media(max-width:600px) {
+    .icon_card {
+        height: 35vw;
+    }
+
+    .icon_preview {
+        height: 59%;
+    }
+
+    header {
+        height: 16%;
+    }
+
+}

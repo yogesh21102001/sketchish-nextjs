@@ -1,0 +1,15 @@
+.ht-download-btn {
+  cursor: pointer;
+}
+
+.ht-ico-tb-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ht-ico-tb-preview {
+  height: 50px;
+  padding: 12px;
+}

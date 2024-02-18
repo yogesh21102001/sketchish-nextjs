@@ -1,0 +1,113 @@
+.sec_center {
+  position: relative;
+  width: 100%;
+  z-index: 200;
+  height: 100%;
+}
+
+.custom_dropdown .dropdown_btn {
+  outline: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--shades-primary, #1E3050);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 100%;
+}
+
+.custom_dropdown .dropdown_btn p{
+  text-transform: capitalize;
+  color: var(--Text-color, #767676);
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: initial;
+}
+
+.section_dropdown {
+  position: absolute;
+  padding: .5rem !important;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 6px 35px 0 rgb(9 9 12 / 10%);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: all 200ms linear;
+  background-color: white;
+}
+
+.section_dropdown.openTop {
+  top: -4rem;
+}
+
+
+.custom_dropdown.open .section_dropdown {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  background-color: white;
+}
+
+.arrow{
+  transition: all .3s;
+  height: fit-content;
+  width: fit-content;
+}
+
+.custom_dropdown.open .arrow{
+  transform: rotate(180deg);
+}
+
+.section_dropdown:after {
+  position: absolute;
+  top: -7px;
+  left: 30px;
+  width: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: '';
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear;
+}
+
+.option_cont{
+  cursor: pointer;
+  padding: .4rem .4rem !important;
+}
+
+.option_cont:hover{
+  background-color: #F9FAFB;
+}
+
+
+
+.option_cont p{
+  color: var(--shades-primary, #1E3050);
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    margin: 0;
+}
+
+.option_cont.alert p:hover {
+  color: rgb(236, 11, 11);
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" class = "bell">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M25.5 5.5C25.5 4.67157 24.8284 4 24 4C23.1716 4 22.5 4.67157 22.5 5.5V8.0856C16.0268 8.82929 11 14.3276 11 21V30.1716C11 30.4368 10.8946 30.6911 10.7071 30.8787L8.70708 32.8787C6.81719 34.7686 8.15569 38 10.8284 38H17H17.0704H30.9286H31.5H37.1715C39.8443 38 41.1828 34.7686 39.2929 32.8787L37.2929 30.8787C37.1053 30.6911 37 30.4368 37 30.1716V21C37 14.3276 31.9731 8.82932 25.5 8.08561V5.5ZM23.9995 44C21.2071 44 18.7966 42.3649 17.6731 40H30.3259C29.2024 42.3649 26.7919 44 23.9995 44Z" fill="#1E3050"/>
+  <style>
+     @keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bell {
+  animation: shake .5s ease infinite;
+}
+</style>
+</svg>

@@ -1,0 +1,273 @@
+.invoice-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoice-main {
+  height: 100vh;
+}
+
+.invoice-title {
+  align-self: center;
+}
+
+.size-a4 {
+  width: 6.2in;
+  padding: 0.2in;
+  height: 8.7in;
+}
+
+.invoice-title p {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.hr-invoice {
+  height: 1px;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #E3E4E7;
+}
+
+.detail-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-part h1 {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.detail-part p {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.bill-part {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bill-part-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.under-div {
+  display: flex;
+  gap: 20px;
+
+}
+
+.bill-detail {
+  display: flex;
+}
+
+.left-side {
+  width: 89px;
+}
+
+.right-side {
+  width: 100px;
+  text-align: end;
+}
+
+.bill-part h1 {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.detail-part p {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.bill-part-desc h1 {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.bill-part-desc p {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.hr-invoice-table {
+  height: 1px;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #E3E4E7;
+}
+
+.total-amount {
+  justify-content: end;
+  display: flex;
+}
+
+.total-amount2 {
+  margin-top: 25px;
+  justify-content: end;
+  display: flex;
+}
+
+.hr-invoice-half-table {
+  height: 1px;
+  width: 190px;
+  display: flex;
+  float: right;
+  margin: 10px 0;
+  background-color: #E3E4E7;
+}
+
+.total-amount p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.total-amount2 p {
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.btn-download {
+  display: flex;
+  margin: 20px auto;
+  border: none;
+  padding: 10px 20px;
+}
+
+.pdf-page {
+  position: relative;
+
+  margin: 0 auto;
+
+  padding: 0.4in 0.3in;
+
+  color: #333;
+
+  background-color: #fff;
+
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+
+  box-sizing: border-box;
+}
+
+.pdf-header {
+  padding-bottom: 0.2in;
+
+  margin-bottom: 0.3in;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.invoice-number {
+  padding-top: 0.1in;
+
+  float: right;
+}
+
+.pdf-footer {
+  position: absolute;
+
+  bottom: 0.25in;
+
+  left: 0.3in;
+
+  right: 0.3in;
+
+  padding-top: 0.05in;
+
+  border-top: 1px solid #e5e5e5;
+
+  font-size: 0.9em;
+
+  text-align: left;
+
+  color: #787878;
+}
+
+.addresses {
+  font-size: 12px;
+}
+
+.addresses:after {
+  display: block;
+
+  content: "";
+
+  clear: both;
+}
+
+.for {
+  float: left;
+}
+
+.from {
+  float: right;
+}
+
+.addresses p {
+  color: #787878;
+
+  padding: 0.05in 0;
+
+  border-top: 1px solid #e5e5e5;
+}
+
+.addresses p:first-of-type {
+  border-top: 0;
+}
+
+.pdf-body {
+  margin-top: 0.3in;
+}
+
+.company-logo {
+  font-size: 1.8em;
+
+  font-weight: bold;
+
+  color: #3aabf0;
+}
+
+.signature {
+  padding-top: 0.3in;
+}
+
+/* Dimensions other than px and em should be divided by 1.33 for the proper PDF output */
+
+.size-a4 {
+  width: 6.2in;
+
+  height: 8.7in;
+}
+
+.size-letter {
+  width: 6.3in;
+
+  height: 8.2in;
+}
+
+.size-executive {
+  width: 5.4in;
+
+  height: 7.8in;
+
+  font-size: 12px;
+}
+
+.size-executive .pdf-header {
+  margin-bottom: 0.1in;
+}
+
+.box {
+  padding: 1em;
+
+  background-color: rgba(20, 53, 80, 0.038);
+
+  border: 1px solid rgba(20, 53, 80, 0.05);
+}

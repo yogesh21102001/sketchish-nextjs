@@ -1,0 +1,60 @@
+.footer-heading {
+  color: white;
+}
+.footer-list {
+  color: white;
+  list-style: none;
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #c8c9d0;
+}
+.footer-features {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.nav-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nav-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 147px;
+}
+.footer-text {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e5f6e;
+}
+.line-footer {
+  border-top: 1px solid #2f3037;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
+.svg-icon {
+  font-family: var(--font,"Nunito Sans");
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c8c9d0;
+  display: flex;
+  align-items: center;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding: 65px 200px;
+  background-color: black;
+}

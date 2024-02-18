@@ -1,0 +1,159 @@
+.wraper * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wraper {
+    display: flex;
+    height: 40.625rem;
+    padding: 6rem;
+    align-items: center;
+    background: #F7EFFD;
+}
+
+.fromPlugginSuccess{
+    background: white;
+}
+
+.plugin_cont {
+    max-width: 60.8125rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.plugin_cont .lft {
+    height: 100%;
+    width: 55%;
+}
+
+.heading {
+    color: var(--shades-tint-light-dark, #000);
+
+    /* Header/H2 */
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description {
+    color: var(--shades-tint-light-dark, #000);
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* 160% */
+    opacity: 0.8;
+    width: 70%;
+}
+
+.topDesc {
+    margin: 1rem 0;
+}
+
+.figma_connect {
+    margin-bottom: 1.67rem;
+}
+
+.plugin_cont .rgt {
+    height: 100%;
+}
+
+.lft_btn {
+    background: var(--brand-primary-violet, #7238FA);
+    color: white !important;
+}
+
+.rgt_btn {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.20) !important;
+    color: #676F7E !important;
+}
+
+.btn_wraper {
+    margin-top: 1.37rem;
+}
+
+.btn_wraper p {
+    width: 100%;
+    text-align: left;
+}
+
+@media(max-width:1024px) {
+    .wraper {
+        padding: 3.1rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .wraper {
+        height: fit-content;
+    }
+
+    .plugin_cont .lft {
+        width: 45%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .plugin_cont .rgt {
+        width: 55%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .plugin_cont .rgt svg {
+        width: 100%;
+    }
+
+    .btn_wraper {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .wraper {
+        padding: 12vw 1.3rem;
+    }
+
+    .plugin_cont {
+        flex-direction: column;
+        gap: 7vw;
+    }
+
+    .plugin_cont .rgt {
+        width: 100%;
+    }
+
+    .plugin_cont .lft {
+        width: 100%;
+    }
+
+    .btn_wraper {
+        flex-direction: row;
+    }
+
+    .heading {
+        font-size: 7vw;
+    }
+
+    .description {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+
+    .wraper svg {
+        height: initial;
+    }
+
+    .figma_connect {
+        width: 46vw;
+        margin-bottom: 7vw;
+    }
+}

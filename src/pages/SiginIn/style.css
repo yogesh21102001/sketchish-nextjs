@@ -1,0 +1,88 @@
+.user-signIn {
+  /* background: var(--support-light-grey, #f0f3f5); */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 84vh;
+  width: 100%;
+}
+
+.user-signIn .os {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.brand_logo {
+  cursor: pointer;
+}
+
+.user-signIn .login {
+  background: var(--support-white, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.user-signIn .container {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+
+.user-signIn-copyright {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.user-signIn .powered-by-sketchish-2018-2023-all-rights-reserved-v-1-0 {
+  color: var(--text-secondary, #676f7e);
+  text-align: center;
+  font: var(--p-s-regular, 400 10px "Work Sans", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-signIn .section-login {
+  height: auto;
+  width: 100%
+}
+
+.user-signIn .form-login {
+  background: transparent !important;
+}
+
+.user-signIn .login-section,
+.user-signIn .form-login {
+  width: 100%;
+}
+
+.user-signIn .form-padding {
+  padding: 0 4.563rem;
+}
+
+.user-signIn .form-forgot-password {
+  padding: 0.425rem 4.563rem 0 0;
+}

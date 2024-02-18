@@ -1,0 +1,70 @@
+.animatedIcons_cont {
+    display: flex;
+    padding: 1.875rem 6.25rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.125rem;
+    flex: 1 0 0;
+    border-top: 1px solid #36D1DC;
+    border-bottom: 1px solid #36D1DC;
+    background: rgba(54, 209, 220, 0.08);
+}
+
+.main_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.12rem;
+}
+
+.main_item h3 {
+    color: var(--text-primary, #1E3050);
+    text-align: center;
+    font-family: var(--font, "Nunito Sans");
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.icon_cont {
+    display: flex;
+    gap: 3.12rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon_cont .icon {
+    cursor: pointer;
+}
+
+.icon_cont .icon svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media(max-width: 600px) {
+    .animatedIcons_cont {
+        padding: 1.3rem 1.3rem;
+    }
+
+    .main_item {
+        gap: 8vw;
+    }
+
+    .icon_cont {
+        gap: 6vw 10vw;
+    }
+
+    .icon_cont .icon svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .main_item h3 {
+        font-size: 3.5vw;
+    }
+}

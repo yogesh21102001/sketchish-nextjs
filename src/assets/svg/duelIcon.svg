@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="239" height="239" rx="7.5" fill="white" stroke="#E8E8E8"/>
+<path d="M60.11 52.5L70 63.75H50L60.11 52.5Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 67.5H70" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.75 50C108.75 49.3096 109.31 48.75 110 48.75H130C130.69 48.75 131.25 49.3096 131.25 50V70C131.25 70.6904 130.69 71.25 130 71.25H110C109.31 71.25 108.75 70.6904 108.75 70V50Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M123.63 59.9998H116.392L120 55.6873L123.63 59.9998Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M113.75 65H126.25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 54.032L189.949 67.5002H170.042L180 54.032Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M170 52.5H190" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.25 120C71.25 126.213 66.2132 131.25 60 131.25C53.7868 131.25 48.75 126.213 48.75 120C48.75 113.787 53.7868 108.75 60 108.75C66.2132 108.75 71.25 113.787 71.25 120Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57.5 125V115" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62.5 115V125" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M112.5 110C112.5 109.31 113.06 108.75 113.75 108.75H116.25C116.94 108.75 117.5 109.31 117.5 110V130C117.5 130.69 116.94 131.25 116.25 131.25H113.75C113.06 131.25 112.5 130.69 112.5 130V110Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.5 110C122.5 109.31 123.06 108.75 123.75 108.75H126.25C126.94 108.75 127.5 109.31 127.5 110V130C127.5 130.69 126.94 131.25 126.25 131.25H123.75C123.06 131.25 122.5 130.69 122.5 130V110Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.75 110C168.75 109.31 169.31 108.75 170 108.75H190C190.69 108.75 191.25 109.31 191.25 110V130C191.25 130.69 190.69 131.25 190 131.25H170C169.31 131.25 168.75 130.69 168.75 130V110Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M177.5 125V115" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182.5 115V125" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48.75 170C48.75 169.31 49.3096 168.75 50 168.75H70C70.6904 168.75 71.25 169.31 71.25 170V190C71.25 190.69 70.6904 191.25 70 191.25H50C49.3096 191.25 48.75 190.69 48.75 190V170Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62.5 180L58.75 177.5V182.5L62.5 180Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.75 170C108.75 169.31 109.31 168.75 110 168.75H130C130.69 168.75 131.25 169.31 131.25 170V190C131.25 190.69 130.69 191.25 130 191.25H110C109.31 191.25 108.75 190.69 108.75 190V170Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M113.75 182.5L113.75 187.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.75 185H131.25" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.5 177.5L118.75 175V180L122.5 177.5Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.75 170C168.75 169.31 169.31 168.75 170 168.75H190C190.69 168.75 191.25 169.31 191.25 170V180C191.25 180.69 190.69 181.25 190 181.25H170C169.31 181.25 168.75 180.69 168.75 180V170Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182.5 175L178.75 172.5V177.5L182.5 175Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M177.5 188.75L191.25 188.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.75 188.75L172.5 188.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M177.5 188.75C177.5 190.131 176.381 191.25 175 191.25C173.619 191.25 172.5 190.131 172.5 188.75C172.5 187.369 173.619 186.25 175 186.25C176.381 186.25 177.5 187.369 177.5 188.75Z" fill="#FAD338" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

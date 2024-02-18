@@ -1,0 +1,30 @@
+<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <ellipse
+                          cx="16.8"
+                          cy="12"
+                          rx="1.2"
+                          ry="1.2"
+                          transform="rotate(90 16.8 12)"
+                          fill="#1E3050"
+                        />
+                        <circle
+                          cx="12"
+                          cy="12"
+                          r="1.2"
+                          transform="rotate(90 12 12)"
+                          fill="#1E3050"
+                        />
+                        <circle
+                          cx="7.20002"
+                          cy="12"
+                          r="1.2"
+                          transform="rotate(90 7.20002 12)"
+                          fill="#1E3050"
+                        />
+                      </svg>

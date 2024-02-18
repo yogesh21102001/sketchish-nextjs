@@ -1,0 +1,445 @@
+/* ============= Icon showcase css start =========== */
+:root {
+  --light-gray: #f0f3f5;
+  --primary: #1e3050;
+  --text-secondary: #676f7e;
+  --brand-color: #7238fa;
+  --white-color: #fff;
+  --dark-gray: #c5cad3;
+}
+
+.sr-cust-colr-dot {
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: .6rem;
+  width: 1.5rem;
+  border-radius: 20px;
+}
+
+.IconPage_iconShowCaseCont {
+  display: flex;
+  /* height: 43.2vw; */
+}
+
+.IconPage_iconShowCaseCont.full {
+  display: flex;
+  width: 100%;
+  max-width: 76.875rem;
+  padding: 3.125rem 0;
+  align-items: flex-start;
+}
+
+.IconPage_iconShowCaseCont.full .IconPage_lft {
+  border-radius: 16px;
+}
+
+.IconPage_iconShowCaseCont .IconPage_lft {
+  padding: 1.8rem;
+  background-color: var(--light-gray);
+  height: 100%;
+  width: 65.5%;
+}
+
+.IconPage_iconShowCaseCont .IconPage_header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.IconPage_iconShow {
+  height: 96%;
+}
+
+.icon-cat {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.IconPage_header span {
+  margin-right: .6rem;
+  font-family: "Nunito Sans";
+  font-size: .96rem;
+  cursor: pointer;
+}
+
+.IconPage_header span.active {
+  color: var(--brand-color);
+}
+
+.IconPage_iconCont {
+  /* background-color: brown; */
+
+  height: 395px;
+  width: 395px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin: auto;
+}
+
+.IconPage_iconWraper {
+  /* margin-bottom: 4rem; */
+}
+
+.IconPage_iconWraper img {
+  width: 8.4375rem;
+  height: 8.4375rem;
+}
+
+.IconPage_colorsCont {
+  display: flex;
+  align-items: center;
+  border-right: .1rem solid var(--dark-gray);
+}
+
+.IconPage_colorsCont img {
+  margin-right: .6rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.IconPage_iconColors {
+  display: flex;
+  align-items: center;
+}
+
+.IconPage_iconColors .IconPage_reset {
+  background-color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-left: .8rem;
+  cursor: pointer;
+}
+
+.IconPage_iconTypesCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.IconPage_iconTypesCont .IconPage_iconType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 .65rem;
+  cursor: pointer;
+}
+
+.IconPage_iconTypesCont .IconPage_iconType p {
+  color: var(--text-secondary);
+}
+
+.IconPage_iconTypesCont .IconPage_iconType img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+@media(max-width:600px) {
+  .IconPage_iconTypesCont .IconPage_iconType img {
+    height: 11vw;
+    width: 11vw;
+    object-fit: contain;
+  }
+}
+
+.IconPage_iconTypesCont .IconPage_iconType p {
+  font-size: .8rem;
+  margin-top: .5rem;
+  font-family: "Nunito Sans";
+}
+
+.IconPage_iconShowCaseCont .IconPage_rgt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 25rem;
+  padding: 1.875rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.IconPage_iconInfo {
+  margin-bottom: 1rem;
+}
+
+.IconPage_iconName {
+  display: flex;
+  align-items: center;
+}
+
+.IconPage_iconName p {
+  margin-right: .8rem;
+  color: var(--primary);
+  font-family: "Nunito Sans";
+}
+
+.IconPage_iconName span {
+  display: flex;
+  padding: 0rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.25rem;
+  background: var(--light-gray);
+  font-family: "Nunito Sans";
+  color: #1E3050;
+  font-size: 1rem;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+
+.IconPage_rgt .IconPage_category {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.IconPage_category p,
+p.IconPage_category,
+.IconPage_iconName p {
+  margin: 0;
+}
+
+.IconPage_rgt .IconPage_report {
+  text-align: right;
+  color: var(--text-secondary);
+  font-family: "Nunito Sans";
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.IconPage_stoke {
+  border-radius: 100px;
+  border: 1px solid var(--support-light-grey, #F0F3F5);
+  background: var(--support-white, #FFF);
+  width: 22px;
+  height: 38px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.IconPage_stoke.active {
+  background: var(--support-light-grey, #F0F3F5);
+}
+
+.IconPage_iconModify p {
+  font-size: .9rem;
+  color: var(--text-secondary);
+  font-family: "Nunito Sans";
+  margin-bottom: 10px;
+}
+
+.IconPage_optionsCont {
+  display: flex;
+  align-items: center;
+}
+
+.IconPage_iconModify img {
+  margin-right: .6rem;
+  cursor: pointer;
+}
+
+.IconPage_iconModify {
+  margin-top: .5rem;
+}
+
+.IconPage_iconModify .IconPage_iconSize {
+  border-radius: 6.25rem;
+  border: 1px solid var(--light-gray);
+  background-color: var(--white);
+  display: flex;
+  /* height: 2.0rem; */
+  padding: 0.5625rem 0.5875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: .53rem;
+  font-size: .7rem;
+  font-family: "Nunito Sans";
+  color: var(--primary);
+}
+
+.IconPage_iconModify .IconPage_formate {
+  padding: 0.5625rem 0.9875rem;
+}
+
+.IconPage_active {
+  border-color: transparent;
+  color: var(--brand-color) !important;
+  background-color: var(--light-gray) !important;
+}
+
+.icon-link {
+  cursor: pointer;
+}
+
+.IconPage_btnCont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.Button_btn {
+  display: flex;
+  align-items: center;
+  background-color: #f0f3f5;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: .6rem;
+  padding: 1rem 2rem;
+}
+
+.Button_extraPadding {
+  padding: .8rem 1.8rem;
+}
+
+.Button_btn img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: .5rem;
+}
+
+.Button_btn span {
+  color: var(--primary-label, #1E3050);
+  text-align: center;
+  font-family: var(--font, "Nunito Sans");
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.Button_btnActive {
+  background-color: #36DC5E !important;
+}
+
+.Button_btn svg {
+  margin-right: .5rem;
+}
+
+/* ============= Other Icon Section Css =========== */
+
+
+@media(max-width: 900px) {
+  .IconPage_iconCont {
+    height: 295px;
+    width: 195px;
+  }
+
+  .IconPage_iconShowCaseCont {
+    flex-direction: column;
+    height: fit-content;
+    width: 88.2%;
+    margin: 1.25rem auto;
+
+  }
+
+  .IconPage_iconShowCaseCont .IconPage_rgt,
+  .IconPage_iconShowCaseCont .IconPage_lft {
+    width: calc(100% - 1rem*2);
+    max-width: initial;
+    padding: 1rem;
+  }
+
+  .IconPage_iconShowCaseCont .IconPage_rgt {
+    padding: 1.8rem .3rem;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .IconPage_iconShowCaseCont.full {
+    padding: initial;
+  }
+
+  .IconPage_iconName p {
+    font-family: "Nunito-Bold";
+    font-size: 1.2rem;
+  }
+
+  .IconPage_iconTypesCont {
+    margin-top: 2rem;
+  }
+
+  .IconPage_iconWraper {
+    margin-bottom: 2rem;
+  }
+
+  .IconPage_otherIconsCont {
+    padding: 3.25rem 2.9rem;
+  }
+}
+
+.IconPage_flex {
+  display: flex;
+  gap: 10px;
+}
+
+
+.license-info {
+  float: left;
+  text-decoration: underline;
+}
+
+@media(max-width: 600px) {
+  .IconPage_iconCont {
+    min-height: 62vw;
+    width: initial;
+    margin-top: 4vw;
+  }
+
+  .IconPage_flex {
+    gap: 2vw;
+  }
+
+  .IconPage_iconShowCaseCont .IconPage_rgt {
+    width: calc(100% - 0.3rem*2);
+    flex-direction: column;
+  }
+
+  .IconPage_iconShowCaseCont .IconPage_rgt>div {
+    width: 100%;
+  }
+
+  .IconPage_btnCont {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5vw;
+  }
+
+  .IconPage_btnCont button {
+    padding: 3vw 5vw;
+    margin: 0;
+  }
+
+  .IconPage_optionsCont,
+  .IconPage_iconTypesCont {
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .IconPage_optionsCont::-webkit-scrollbar,
+  .IconPage_iconTypesCont::-webkit-scrollbar {
+    display: none;
+  }
+}
