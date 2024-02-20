@@ -10,18 +10,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Styles from "./style.module.css";
 
-// Return a list of `params` to populate the [slug] dynamic segment
-export async function generateStaticParams() {
-  const BaseUrl = process.env.NEXT_BASE_URL;
-  const slugs = await fetch(`${BaseUrl}services/blogs/list/`).then(
-    (res) => res.json()
-  );
-
-  return slugs.data.blogs.map((blog) => ({
-    slug: blog?.slug,
-  }));
-}
-
 async function getData(slug) {
   const BaseUrl = process.env.NEXT_BASE_URL;
   const res = await fetch(`${BaseUrl}services/blogs/detail/${slug}`);
@@ -32,8 +20,6 @@ async function getData(slug) {
   return res.json();
 }
 
-// Multiple versions of this page will be statically generated
-// using the `params` returned by `generateStaticParams`
 export default async function Page({ params }) {
   const { slug } = params;
   const data = await getData(slug);
