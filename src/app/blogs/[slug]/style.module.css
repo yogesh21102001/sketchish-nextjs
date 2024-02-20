@@ -137,6 +137,18 @@
     gap: 1.2rem;
 }
 
+.not_found{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not_found h1{
+   font-size: 2rem;
+   font-weight: 600;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .html_cont{

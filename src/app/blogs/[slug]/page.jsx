@@ -5,33 +5,30 @@ import {
   FooterSection
 } from "@/sections";
 import CommonStyles from "@/utils/commonStyles.module.css";
+import { formatDate } from "@/utils/dateFormate";
 import Image from "next/image";
 import Link from "next/link";
 import Styles from "./style.module.css";
-import { formatDate } from "@/utils/dateFormate";
 
 // Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  const slugs = await fetch("http://localhost:8002/services/blogs/list/").then(
+  const BaseUrl = process.env.NEXT_BASE_URL;
+  const slugs = await fetch(`${BaseUrl}services/blogs/list/`).then(
     (res) => res.json()
   );
 
-  // console.log("slugs::", slugs.data.blogs);
   return slugs.data.blogs.map((blog) => ({
-    slug: blog._id,
+    slug: blog?.slug,
   }));
 }
 
-async function getData(id) {
-  const res = await fetch(`http://localhost:8002/services/blogs/detail/${id}`);
-  // The return value is *not* serialized
-  // You can return Date, Map, Set, etc.
+async function getData(slug) {
+  const BaseUrl = process.env.NEXT_BASE_URL;
+  const res = await fetch(`${BaseUrl}services/blogs/detail/${slug}`);
 
   if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
     throw new Error("Failed to fetch data");
   }
-
   return res.json();
 }
 
@@ -39,8 +36,6 @@ async function getData(id) {
 // using the `params` returned by `generateStaticParams`
 export default async function Page({ params }) {
   const { slug } = params;
-  console.log("slug::", slug);
-
   const data = await getData(slug);
 
   let htmlData = `<h2>Crafting Connections</h2><h3>A Step-by-Step Guide to Building Your Own Social Media Website</h3><p>In a world where connections are the currency of the digital age, building your own social media website can be a thrilling venture. This step-by-step guide is your ticket to creating a platform where communities thrive, conversations flourish, and users find a space to express, connect, and engage. Let's embark on this journey together, turning your vision into a vibrant digital reality.</p><p></p><h4>Step 1: Define Your Purpose</h4><p>Every successful social media platform starts with a clear purpose. Are you creating a space for professionals, artists, hobbyists, or a mix of communities? Define your niche, target audience, and the unique value your platform will offer.</p><p></p><h4>Step 2: Choose Your Tech Stack</h4><ul><li><p>Technology Selection: Choose the right technology for your project, considering factors such as robustness, flexibility, and alignment with platform goals</p></li><li><p>Framework Consideration: Evaluate frameworks like Django, Ruby on Rails, or JavaScript with Node.js based on their suitability for your project's requirements and objectives.</p></li><li><p>Alignment with Platform Goals: Ensure that the chosen technology aligns seamlessly with the goals and objectives of your platform, promoting overall success and efficiency.</p></li><li><p>Alignment with Platform Goals: Ensure that the chosen technology aligns seamlessly with the goals and objectives of your platform, promoting overall success and efficiency.</p></li></ul>`;
@@ -51,7 +46,8 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <section
+      {
+        data?.data?.content && <>  <section
         className={`${Styles.header_wraper} ${CommonStyles.body_padding}`}
       >
         <div className={`${Styles.sec_cont}`}>
@@ -68,7 +64,7 @@ export default async function Page({ params }) {
           </div>
           <div className={Styles.blogHeaderText}>
             <div className={Styles.publishedOn}>
-              <p>{formatDate(data.data.publishedOn)}</p>
+              <p>{formatDate(data?.data?.publishedOn)}</p>
             </div>
             <div className={Styles.title}>
               <h1>{data?.data?.title}</h1>
@@ -203,7 +199,17 @@ export default async function Page({ params }) {
             </div>
           </div>
         </div>
-      </section>
+      </section> </>
+      }
+
+      {
+         data?.data?.resp && <section className={Styles.not_found}>
+            <h1>{data?.data?.resp}</h1>
+         </section>
+      }
+
+
+    
       <BlogSection />
       <FooterSection background={"#F7EDCF"} />
     </>

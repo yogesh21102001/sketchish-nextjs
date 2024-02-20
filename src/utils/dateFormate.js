@@ -1,5 +1,5 @@
 export function formatDate(inputDate) {
-    const dateParts = inputDate.split('/');
+    const dateParts = inputDate?.split('/') || [];
     const month = parseInt(dateParts[0]);
     const day = parseInt(dateParts[1]);
     const year = parseInt(dateParts[2]);

@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {images: { unoptimized: true }, trailingSlash: true, future: { webpack5: true } }
+const nextConfig = {
+    images: { unoptimized: true }, trailingSlash: true, output: 'export', env: {
+        NEXT_BASE_URL: process.env.NEXT_BASE_URL,
+    }
+}
 
 module.exports = nextConfig
 

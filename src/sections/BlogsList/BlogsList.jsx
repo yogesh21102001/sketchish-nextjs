@@ -6,16 +6,13 @@ import { useRouter } from 'next/navigation';
 import { images } from "../../assets/images";
 import Image from "next/image";
 import { formatDate } from "@/utils/dateFormate";
+import Link from "next/link";
 
-const SmallBlogCard = ({ heading, blogId, date, img }) => {
+const SmallBlogCard = ({ heading, blogId, date, img, slug }) => {
   const router = useRouter();
+  const options = {id : blogId}
   return (
-    <div
-      className={Styles.blog_card_small}
-      onClick={() => {
-        router.push(`/blogs/${blogId}`);
-      }}
-    >
+    <Link className={Styles.blog_card_small} href={`/blogs/${slug}`}>
       <div className={Styles.thumbnail_small}>
         <Image alt="decoration" src={img} className={Styles.img} width={100} height={100} />
       </div>
@@ -23,7 +20,7 @@ const SmallBlogCard = ({ heading, blogId, date, img }) => {
         <p className={Styles.date}>{date}</p>
         <p className={Styles.heading}>{heading}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -32,10 +29,11 @@ const BlogsList = () => {
 
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(true);
-
+  
   useEffect(() => {
-    fetch('http://localhost:8002/services/blogs/list/')
-
+    const BaseUrl = process.env.NEXT_BASE_URL;
+    console.log(">>>>>", BaseUrl);
+    fetch(`${BaseUrl}services/blogs/list/`)
       .then((res) => res.json())
       .then((data) => {
         console.log('data::',data.data.blogs);
@@ -49,13 +47,16 @@ const BlogsList = () => {
       {data &&
         data?.map((blog) => {
           return (
+            <>
             <SmallBlogCard
               key={blog._id}
               heading={blog.title}
               blogId={blog._id}
               date={formatDate(blog?.publishedOn)}
               img={blog.thumbnail ? blog.thumbnail : images.blog_1 }
+              slug={blog.slug}
             />
+            </>
           );
         })}
       
